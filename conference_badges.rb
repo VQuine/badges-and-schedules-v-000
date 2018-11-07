@@ -10,5 +10,3 @@ def batch_badge_creator(array_of_names)
     badge_maker(name)
   end
 end
-
-
