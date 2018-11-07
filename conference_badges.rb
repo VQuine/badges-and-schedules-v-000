@@ -1,4 +1,4 @@
-# Write your code here.
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -13,8 +13,13 @@ end
 
 def assign_rooms(speakers_array)
   rooms_assigned = []
-  speakers_array.each_with_index do |name, index|
-    rooms_assigned << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-  end
+    speakers_array.each_with_index do |name, index|
+      rooms_assigned << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+    end
   rooms_assigned
+end
+
+def printer()
+  puts batch_badge_creator(array_of_names)
+  puts assign_rooms(speakers_array)
 end
