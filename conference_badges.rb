@@ -18,4 +18,3 @@ def assign_rooms(speakers_array)
   end
   rooms_assigned
 end
-
